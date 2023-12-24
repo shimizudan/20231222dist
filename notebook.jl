@@ -393,6 +393,8 @@ md"""
 	
 - [https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb](https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb)
 
+- 仮説検定の問題は高校数学で取り扱ってきた典型的な問題ですが，問い方に多くの問題を抱えています。どのような問い方が良いのかは今後考えていく必要があります。
+
 """
 
 # ╔═╡ 00000000-0000-0000-0000-000000000001
