@@ -1,1 +1,2 @@
-- このサイトは，私の勤務校で高校数学Bの「統計的な推測」の定期テストなどで取り上げた問題を中心にjuliaのpluto.jlパッケージで構成したものです。
+- 私の勤務校で高校数学Bの「統計的な推測」の定期テストなどで取り上げた問題を中心にjuliaのpluto.jlパッケージで構成したものです。
+- [https://shimizudan.github.io/20231222dist/](https://shimizudan.github.io/20231222dist/）が`Pluto.jlで作成したWebページとなります。
