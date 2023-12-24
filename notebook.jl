@@ -21,11 +21,13 @@ TableOfContents(title="もくじ 📚")
 
 # ╔═╡ 8acc204e-896e-11ed-1251-438ce5d793cb
 md"""
-# 統計的な推測
+# 統計の問題とJulia言語を用いた解答
 
 ## はじめに
 
-このサイトは高校数学Bの「統計的な推測」のテストなどで取り上げた問題を中心に`julia`の`pluto.jl`パッケージで構成したものです。
+これはJulia [Advent Calendar 2023](https://qiita.com/advent-calendar/2023/julia)の21日目の記事を代わりに書きました。
+
+このサイトは，私の勤務校で高校数学Bの「統計的な推測」の定期テストなどで取り上げた問題を中心に`julia`の`pluto.jl`パッケージで構成したものです。
 
 
 
@@ -36,13 +38,6 @@ md"""
 + [pluto.jlの説明](https://zenn.dev/hctaw_srp/articles/ab26550eea5f8c)
 
 
-
-
-ローカルにjuliaをインストールしなくても，binderを利用してweb上で利用できます。
-
-+ ちょっと読み込みに時間がかかります。
-+ 数値などを変更して，実行できます。
-+ [binderについて](https://mybinder.org)
 
 __清水　団　[@dannchu](https://twitter.com/dannchu)__
 
@@ -83,7 +78,7 @@ let
 
 	md"""
 		
-	|X̄|$(count(i->(i==1.5), X̄))|$(count(i->(i==2), X̄))|$(count(i->(i==2.5), X̄))|$(count(i->(i==3), X̄))|計|
+	|X̄|1.5|2.0|2.5|3.0|計|
 	|---|---|---|---|---|---|
 	|$p$|$(count(i->(i==1.5), X̄)//20)|$(count(i->(i==2), X̄)//20)|$(count(i->(i==2.5), X̄)//20)|$(count(i->(i==3), X̄)//20)|$(20//20)|
 
@@ -226,9 +221,9 @@ end
 # ╔═╡ 58c3ea9b-d1db-4f6b-b164-af7f0819b3f3
 
 	md"""
-	`nls` は下記のサイトからの関数を利用しました。
+	- `nls` は下記のサイトからの関数を利用しました。
 	
-	[http://www.cas.cmc.osaka-u.ac.jp/~paoon/Lectures/2018-7Semester-AppliedMath9/04-nlsolve/](http://www.cas.cmc.osaka-u.ac.jp/~paoon/Lectures/2018-7Semester-AppliedMath9/04-nlsolve/)
+	- [http://www.cas.cmc.osaka-u.ac.jp/~paoon/Lectures/2018-7Semester-AppliedMath9/04-nlsolve/](http://www.cas.cmc.osaka-u.ac.jp/~paoon/Lectures/2018-7Semester-AppliedMath9/04-nlsolve/)
 	
 	"""
 
@@ -394,9 +389,9 @@ end
 
 # ╔═╡ eb3b9819-caf3-4ef7-8765-c2c1824b14aa
 md"""
-⑥⑦のP値関数，信頼区間は下記のサイトのコードを利用しました。
+- ⑥⑦のP値関数，信頼区間は下記のサイトのコードを利用しました。
 	
-[https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb](https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb)
+- [https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb](https://github.com/genkuroki/public/blob/main/0046/P-value%20function%20of%20Z-test.ipynb)
 
 """
 
@@ -1948,9 +1943,9 @@ version = "1.4.1+1"
 """
 
 # ╔═╡ Cell order:
-# ╠═be1b28b6-0228-47f2-a234-f9999f34cd9a
 # ╟─74463bf9-c388-4003-9ea1-2da605ab1e3d
 # ╟─8acc204e-896e-11ed-1251-438ce5d793cb
+# ╠═be1b28b6-0228-47f2-a234-f9999f34cd9a
 # ╟─14c30e56-43e5-4fa2-9833-29d22caae6e3
 # ╠═1dbf711b-d1d1-4f01-8225-58e8436f0b1e
 # ╠═a285910e-1a7a-4430-92b5-22f9933547a0
